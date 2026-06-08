@@ -67,7 +67,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 def load_model():
     # Using your absolute path; ensure it is correct on your local system
     model_path = (
-        "model.pkl"
+        r"D:\data_science_repo\Heart_disease_prediction\model.pkl"
     )
     try:
         with open(model_path, "rb") as file:
